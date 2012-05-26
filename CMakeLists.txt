@@ -57,10 +57,10 @@ link_directories(
 )
 
 
-#add_subdirectory(algorithm)
+add_subdirectory(algorithm)
 add_subdirectory(base)
 #add_subdirectory(config)
-#add_subdirectory(system)
+add_subdirectory(system)
 #add_subdirectory(net)
 
 
@@ -71,6 +71,8 @@ add_library(TYLib STATIC )
 
 target_link_libraries(TYLib
 	base
+	system
+	algorithm
 )
 
 #add_subdirectory(test)
