@@ -4,7 +4,8 @@
 
 int main()
 {
-	printf("test is null");
+	printf("test is null \n");
+	printf(" ≤‚ ‘≥Ã–Ú∂Æ≤ª∂Æ \n");
 	return 0;
 }
 

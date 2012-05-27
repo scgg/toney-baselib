@@ -1,7 +1,7 @@
 
-# algorithm cmakelists ,algorithm的cmake文件
+# config cmakelists ,config的cmake文件
 
-file(GLOB_RECURSE algorithm_SRCS RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.cpp *.h)
+file(GLOB_RECURSE config_SRCS RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.cpp *.h)
 #source_group("appmain"  REGULAR_EXPRESSION appmain)
 
 include_directories(
@@ -17,9 +17,9 @@ link_directories(
   ${PROJECT_SOURCE_DIR}/lib
 )
 
-add_library(algorithm STATIC  ${algorithm_SRCS})
+add_library(config STATIC  ${config_SRCS})
 
-target_link_libraries(algorithm 
+target_link_libraries(config 
   
 )
 
