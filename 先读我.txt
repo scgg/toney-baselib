@@ -4,7 +4,7 @@
 希望不要破坏，上传无关代码。注意编码规范。
 简要设计文档，在doc中。
 
-没有建立vc工程，大家用cmake编译，source insight 编写。
+大家用cmake编译,没有编写makefile文件。vc工程在vcproject目录中
 cmake 的简单教程在doc中，更新资料访问官网。
 尽量在linux 下面编译过了，再上传到svn，最好在test中，有测试。
 留下文档在doc中。
