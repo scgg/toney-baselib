@@ -173,6 +173,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\base\noncopyable.h"
+				>
+			</File>
+			<File
 				RelativePath="..\..\base\singleton_template.h"
 				>
 			</File>
@@ -229,6 +233,18 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 			<File
+				RelativePath="..\..\config\argc_opt.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\config\getopt.c"
+				>
+			</File>
+			<File
+				RelativePath="..\..\config\getopt.h"
+				>
+			</File>
+			<File
 				RelativePath="..\..\config\inifile.cpp"
 				>
 			</File>
@@ -246,6 +262,22 @@
 			</File>
 			<File
 				RelativePath="..\..\net\base_socket.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\net\cache.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\net\cache.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\net\poller.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\net\poller.h"
 				>
 			</File>
 		</Filter>
@@ -286,6 +318,14 @@
 			</File>
 			<File
 				RelativePath="..\..\system\lock.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\system\mempool.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\system\mempool.h"
 				>
 			</File>
 			<File
