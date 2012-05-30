@@ -178,15 +178,15 @@ protected:
 /***********************************************
 用户使用应该调用如下跟函数对应的宏
 ************************************************/
-#define LOG_OPEN					    log_open 
+#define LOG_OPEN							log_open 
 #define LOG_P(lvl, fmt, args...)  		    log_i(LOG_FLAG_TIME, lvl, fmt, ##args)
-#define LOG_P_NOTIME(lvl, fmt, args...)    log_i(0, lvl, fmt, ##args)
+#define LOG_P_NOTIME(lvl, fmt, args...)     log_i(0, lvl, fmt, ##args)
 #define LOG_P_PID(lvl, fmt, args...) 	    log_i(LOG_FLAG_TIME | LOG_FLAG_TID, lvl, fmt, ##args)
 #define LOG_P_LEVEL(lvl, fmt, args...)	    log_i(LOG_FLAG_TIME | LOG_FLAG_LEVEL, lvl, fmt, ##args)
 #define LOG_P_FILE(lvl, fmt, args...)	    log_i(LOG_FLAG_TIME, lvl, "[%-10s][%-4d][%-10s]"fmt, __FILE__, __LINE__, __FUNCTION__, ##args)
-#define LOG_P_ALL(lvl, fmt, args...)		    log_i(LOG_FLAG_TIME | LOG_FLAG_LEVEL | LOG_FLAG_TID, lvl, "[%-10s][%-4d][%-10s]"fmt,__FILE__, __LINE__, __FUNCTION__, ##args)
-#define LOG_P_BIN					    log_i_bin
-#define SET_HOOK   				           log_set_hook
+#define LOG_P_ALL(lvl, fmt, args...)		log_i(LOG_FLAG_TIME | LOG_FLAG_LEVEL | LOG_FLAG_TID, lvl, "[%-10s][%-4d][%-10s]"fmt,__FILE__, __LINE__, __FUNCTION__, ##args)
+#define LOG_P_BIN							log_i_bin
+#define SET_HOOK   				            log_set_hook
 
 }
 }
